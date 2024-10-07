@@ -61,5 +61,32 @@ namespace Taak1
         {
             mainWindow.Background = Brushes.LightGray;
         }
+        private void Image_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurCode.Text = "#FF0000";
+            informatiecode.Text = "Rood is de kleur van warmte";
+
+        }
+
+        private void Image_MouseDown_1(object sender, MouseButtonEventArgs e)
+        {
+            kleurCode.Text = "#FFFF00";
+            informatiecode.Text = "geel is de kleur van levenslust";
+        }
+
+        private void Image_MouseDown_2(object sender, MouseButtonEventArgs e)
+        {
+            kleurCode.Text = "#008000";
+            informatiecode.Text = "groen is de kleur van genezing";
+        }
+
+        private void Image_MouseDown_3(object sender, MouseButtonEventArgs e)
+        {
+            kleurCode.Text = "#0000FF";
+            informatiecode.Text = "blauw is de kleur van intelligentie";
+        }
+
+        
+
     }
 }
